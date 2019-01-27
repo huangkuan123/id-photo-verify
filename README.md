@@ -20,7 +20,7 @@ $config = [
     'check_pic' => 'd82b84b.....be6356907'//证件照检测
 ];
 $obj = new \HuangKuan\IdPhoto\IdPhoto($config);//实例化一个处理对象
-$base64_img = $obj->getBase64Image('./demo1.jpg');//使用这个方法可以将图片转为 Base64 编码
+$base64_img = $obj->getBase64Image('./demo1.jpg');//使用这个方法可以将图片转为 Base64 编码,全路径。
 
 ``` 
 
