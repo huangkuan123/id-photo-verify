@@ -1,0 +1,21 @@
+{
+    "name": "huangkuan/id-photo-verify",
+    "description": "证件照第三方SDK包",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangkuan",
+            "email": "879736090@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "hanson/foundation-sdk": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "HuangKuan\\IdPhoto\\": "src"
+        }
+    }
+}
